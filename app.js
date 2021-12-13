@@ -10,7 +10,7 @@ app.get('/', (require, response) => {
     response.sendFile(path.resolve(__dirname, 'views/home.html'));
 });
 
-app.get('/registro', (require, response) => {
+app.get('/register', (require, response) => {
     response.sendFile(path.resolve(__dirname, 'views/register.html'));
 });
 

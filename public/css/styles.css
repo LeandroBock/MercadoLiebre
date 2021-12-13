@@ -12,7 +12,10 @@ body{
     background-color: #ebebeb;
 }
 body p,header h2{
-    font-size: 12px;
+    font-size: 18px;
+    font-weight: 700;
+    display: inline-block;
+    width: 30%;
 }
 a{
     text-decoration: none;
@@ -124,7 +127,7 @@ header .burger{
 .home main article{
     box-shadow: 0px 0px 10px rgb(100,100,100);
     width: 41vw;
-}
+ }
 .home .flex-container{
     display: flex;
     flex-wrap: wrap;
@@ -206,7 +209,7 @@ header .burger{
         animation-iteration-count: infinite;
     }  
     .login main form {
-        width: 50%;
+        width: 50%;;
     }
     .registro form{
         width: 50%;
@@ -220,7 +223,7 @@ header .burger{
     }
     .registro main form button {
         height: 3vw;
-        font-size: 2vw;
+        font-size: 2vw
     }
 }
 /* MAIN */
