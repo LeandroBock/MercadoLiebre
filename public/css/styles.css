@@ -12,7 +12,7 @@ body{
     background-color: #ebebeb;
 }
 body p,header h2{
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 700;
     display: inline-block;
     width: 30%;
@@ -42,10 +42,10 @@ header form{
     bottom: 3.7vw;
 }
 header form input{
-    width: 90.6%;
+    width: 90%;
     height: 100%;
     border: none;
-    text-indent: 7.4px;
+    text-indent: 7px;
     border-radius: 5px;
 }
 header form button{
@@ -54,7 +54,7 @@ header form button{
     border: none;
     top: 25%;
     color: gray;
-    right: 10.4%;
+    right: 10%;
 }
 header .cuotes-container  {
     text-align: center;
@@ -146,7 +146,7 @@ header .burger{
 }
 .login main form button{
     width: 100%;
-    height: 6vw;
+    height: 5vw;
     font-size: 3vw;
     margin: 20px 0 0 0;
 }
@@ -175,10 +175,10 @@ header .burger{
     }
     .home main section h2 {
         margin: 1.9vw auto 2.9vw auto;
-        font-size: 2.8vw;
+        font-size: 2.5vw;
     }
     .home main article {
-        width: 19.3vw;
+        width: 18vw;
     }
     .home article:hover{
         box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 ), 0px 35px 10px rgb( 100 , 100 , 100 );
@@ -208,9 +208,9 @@ header .burger{
         animation-duration: 2s;
         animation-iteration-count: infinite;
     }  
-    .login main form {
-        width: 50%;;
-    }
+    .login form {
+        width: 50%;
+    }  
     .registro form{
         width: 50%;
     }
@@ -222,7 +222,7 @@ header .burger{
         height: 3vw;
     }
     .registro main form button {
-        height: 3vw;
+        height: 13vw;
         font-size: 2vw
     }
 }
@@ -303,32 +303,32 @@ footer p{
 }
 /*LOGIN*/
 .login main form {
-    width: 80%;
-    margin: 9vw auto 50px auto;
+    width: 50%;
+    margin: 3vw auto 50px auto;
 }
 .login main input {
     width: 100%;
-    height: 14vw;
+    height: 6vw;
     background-color: #ffffff;
-    margin: 20px 0;
+    margin: 5px 0;
     border: none;
     border-radius: 5px;
-    font-size: 5vw;
-    text-indent: 5px;
+    font-size: 4vw;
+    text-indent: 6px;
 }
 .login main form span{
     color: rgb(226, 2, 2);
 }
 .login main form button {
     width: 100%;
-    height: 15vw;
+    height: 6vw;
     background-color: #818181;
     color: #ffffff;
     border-radius: 5px;
     display: block;
     border: none;
-    font-size: 6vw;
-    margin: 20px 0 0 0;
+    font-size: 4vw;
+    margin: 10px 0 0 0;
     transition: all 500ms;
 }
 .login main form button:hover{
@@ -336,14 +336,14 @@ footer p{
 }
 /*REGISTER*/
 .registro form{
-    width: 80%;
-    margin: 10% auto;
+    width: 45%;
+    margin: 2vw auto 30px auto;
 }
 .registro .input-text{
     display: block;
-    margin: 11% auto;
+    margin: 8% auto;
     width: 100%;
-    height: 12vw;
+    height: 5vw;
     border: none;
     border-radius: 5px;
     text-indent: 6px;
@@ -368,25 +368,25 @@ footer p{
     display: block;
 }
 .registro form .img-upload{
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 .registro .input-password{
     display: block;
     margin: 6% auto;
     width: 100%;
-    height: 13vw;
+    height: 5vw;
     border: none;
     border-radius: 5px;
     text-indent: 6px
 }
 .registro main form button {
     width: 100%;
-    height: 15vw;
+    height: 5vw;
     background-color: #1259c3;
     color: #ffffff;
     border-radius: 5px;
     display: block;
     border: none;
-    font-size: 6vw;
-    margin: 20px 0 0 0;
+    font-size: 3vw;
+    margin: 15px 0 0 0;
 }
